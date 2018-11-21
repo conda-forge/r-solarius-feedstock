@@ -18,19 +18,16 @@ source:
 build:
   noarch: generic
   number: 1000
-  # unix only package
-
   rpaths:
     - lib/R/lib/
     - lib/
 
 requirements:
-  build:
+  host:
     - r-base
     - r-data.table
     - r-ggplot2
     - r-plyr >=1.8.1
-
   run:
     - r-base
     - r-data.table
@@ -54,7 +51,7 @@ about:
     of the linkage and association analyses, that makes the calculation of genome-wide
     scans more efficient. See <http
   license_family: GPL3
-  license_file: '{{ environ["PREFIX"] }}\/lib\/R\/share\/licenses\/GPL-3'  # [unix]
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
 extra:
    recipe-maintainers:
     - MathiasHaudgaard
