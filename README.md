@@ -1,11 +1,11 @@
-About r-solarius
-================
+About r-solarius-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-solarius-feedstock/blob/main/LICENSE.txt)
 
 Home: https://cran.r-project.org/web/packages/solarius/index.html
 
 Package license: GPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-solarius-feedstock/blob/main/LICENSE.txt)
 
 Summary: SOLAR is the standard software program to perform linkage and association mappings of the quantitative trait loci (QTLs) in pedigrees of arbitrary size and complexity. This package allows the user to exploit the variance component methods implemented in SOLAR. It automates such routine operations as formatting pedigree and phenotype data. It also parses the model output and contains summary and plotting functions for exploration of the results. In addition, solarius enables parallel computing of the linkage and association analyses, that makes the calculation of genome-wide scans more efficient. See <http
 
